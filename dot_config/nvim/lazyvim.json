@@ -1,0 +1,20 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.mini-comment",
+    "lazyvim.plugins.extras.coding.mini-snippets",
+    "lazyvim.plugins.extras.coding.nvim-cmp",
+    "lazyvim.plugins.extras.coding.yanky",
+    "lazyvim.plugins.extras.editor.dial",
+    "lazyvim.plugins.extras.editor.fzf",
+    "lazyvim.plugins.extras.lang.json",
+    "lazyvim.plugins.extras.ui.treesitter-context",
+    "lazyvim.plugins.extras.util.chezmoi",
+    "lazyvim.plugins.extras.util.dot",
+    "lazyvim.plugins.extras.util.gitui"
+  ],
+  "install_version": 8,
+  "news": {
+    "NEWS.md": "10960"
+  },
+  "version": 8
+}

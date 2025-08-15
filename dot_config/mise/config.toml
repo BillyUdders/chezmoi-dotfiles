@@ -1,0 +1,22 @@
+[tools]
+go = "latest"
+node = "latest"
+git = "latest"
+rust = "latest"
+neovim = "latest"
+k9s = "latest"
+kustomize = "latest"
+starship = "latest"
+chezmoi = "latest"
+fzf = "latest"
+fd = "latest"
+bat-extras = "latest"
+zoxide = "latest"
+dive = "latest"
+eza = "latest"
+ripgrep = "latest"
+bat = "latest"
+
+[settings]
+experimental = true
+python_compile = true
