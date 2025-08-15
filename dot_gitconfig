@@ -1,0 +1,31 @@
+[core]
+	autocrlf = input
+	ignorecase = false
+	whitespace = cr-at-eol
+	editor = nvim
+	pager = bat
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	precomposeunicode = true
+	excludesFile = ~/.gitignore
+[user]
+	name = Rhys Davies
+	email = rhys.davies901@gmail.com
+	username = BillyUdders
+[color]
+	ui = auto
+[fetch]
+  	prune = true
+[push]
+	autoSetupRemote = true
+	default = upstream
+[help]
+	autocorrect = 1
+[alias]
+	lg = !git log --pretty=format:\"%C(cyan)%h%Creset -%C(bold blue)%d%Creset %s %C(dim green) (%cr) [%an]\" --abbrev-commit -30
+	c = !git add -A && git commit
+	p = !git push origin $(git rev-parse --abbrev-ref HEAD)
+[init]
+	defaultBranch = main
